@@ -11,7 +11,7 @@ Traveller.prototype.getJourneyStartLocations = function() {
 
 Traveller.prototype.getJourneyEndLocations = function () {
   const endLocationArray = this.journeys.map((journey) => {
-    return this.journeys.endLocation;
+    return journey.endLocation;
   })
   return endLocationArray;
 };
